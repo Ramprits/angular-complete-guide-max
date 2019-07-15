@@ -1,0 +1,23 @@
+.loading-container{
+  width:200px;
+  height:20px;
+  border:1px solid rgb(241, 217, 217);
+  margin:auto;
+  box-sizing: content-box;
+}
+
+.loading{
+  width:0px;
+  height:20px;
+  background-color:aqua;
+  animation: loading 1.5s ease-out infinite;
+}
+
+@keyframes loading{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:100%
+  }
+}
